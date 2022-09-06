@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    margin: 30px 70px 0 70px; 
+    background-image:url(/Sandbox/Live-Class-Project-08/images/backcover.svg);
+    background-repeat: no-repeat;
+    background-position: right top;
+    font-family: 'Roboto';
+}          
+
+/*** Entire NavBar containing logo, text and signin button ***/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}                                                                                         /*** NavBar text that includes home, about,...... ***/                                        
+.nav-items{
+width: 500px;
+display: flex;
+justify-content:space-between;
+align-items: center;
+color:#3E4794;
+}
+
+
+/***sign in button modifications***/
+.signin-btn {
+    width: 150px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #965CF2,#FF8ADC);
+    border: none;
+    color: #fff;
+}
+
+/*** Learn More Button ***/
+.learn-more-btn {
+    width: 280px;
+    height: 80px;
+    border-radius: 50px;
+    background: linear-gradient(to right, #965CF2,#FF8ADC);
+    border: none;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    
+        
+}
