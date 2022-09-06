@@ -28,27 +28,44 @@ color:#3E4794;
 }
 
 
-/***sign in button modifications***/
+/***sign in button ***/
 .signin-btn {
-    width: 150px;
+    width: 100px;
     border-radius: 50px;
     background: linear-gradient(to right, #965CF2,#FF8ADC);
     border: none;
     color: #fff;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    /* font-weight: 600; */
+    letter-spacing: 1px;  
+}
+
+.signin-btn:hover {
+    opacity: 0.8;
+    transition-delay:0.1s;
 }
 
 /*** Learn More Button ***/
 .learn-more-btn {
-    width: 280px;
-    height: 80px;
+    width: 250px;
+    height: 55px;
     border-radius: 50px;
     background: linear-gradient(to right, #965CF2,#FF8ADC);
     border: none;
     color: #fff;
-    font-family: 'Roboto';
-    font-size: 30px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-size: 25px;
     font-weight: 600;
-    letter-spacing: 3px;
-    
-        
+    letter-spacing: 1px;        
 }
+
+.learn-more-btn:hover {
+    opacity: 0.8;
+    transition-delay:0.1s;
+}
+
+
+/***Intro Section***/
