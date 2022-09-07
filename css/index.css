@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -21,11 +22,14 @@ nav{
 }                                                            
 /***NavBar text that includes home, about, etc ***/                                        
 .nav-items{
-width: 500px;
+width: 540px;
 display: flex;
 justify-content:space-between;
 align-items: center;
 color:#3E4794;
+font-size: 18px;
+font-weight: 300;
+
 }
 
 /***sign in button ***/
@@ -72,23 +76,37 @@ color:#3E4794;
     justify-content: space-between;    
 }
 
-/***Left Section***/
+/***Left Section (Includes text, button and H1)***/
 .left-section{
-width: 400px;
-height: 500px;
-background-color: aqua;
+width: 480px;
+margin-top: 50px;
 display: flex;
 flex-direction: column;
+
 }
 
 /*** All the text contents in the left section ***/
 .left-section h1{
     align-items: center;
-    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
+    color: #3E4794;
+    margin-bottom: 50px;
+}
+
+.left-section h4{
+    margin: 0px 0 70px 0;
+    width: 300px;
+    word-wrap: break-word;
+    color: #758283;
+    font-family: 'Montserrat';
+    
 }
 
 .imgs-div
 {
-    display: flex;
+    display: flex;      
+    width: 100%; 
 }
+
+
