@@ -5,11 +5,19 @@
     overflow: hidden;
 }
 
+.main-div{    
+    max-width: 1920px;   
+    height: 100vh; 
+    margin: auto;   
+}
+
+
 body{
     margin: 30px 70px 0 70px; 
     background-image:url(/Sandbox/Live-Class-Project-08/images/backcover.svg);
     background-repeat: no-repeat;
     background-position: right top;
+    background-size: 64%;
     font-family: 'Roboto';
 }          
 
@@ -107,6 +115,31 @@ flex-direction: column;
 {
     display: flex;      
     width: 100%; 
+    margin: auto;
 }
 
+/*** Mountain Image ***/
+.vector-img{
+    position: relative;    
+    width: 6rem;                 
+    height: 50%;  
+    top: 30rem;
+    right: -7rem;    
+    /* border: solid red; */
+}
+
+ .vector-dot{
+    width: 1rem;
+    height: 50%;    
+    position: relative;
+    left: 4.5rem;    
+    top: 31rem ;
+    /* border: solid red; */
+} 
+
+/* Ways to target images without class */
+img[alt~="intro-img"] {    
+    max-width:100%;
+    max-height:100%;
+}
 
