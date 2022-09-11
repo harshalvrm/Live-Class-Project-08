@@ -23,20 +23,16 @@
     
 }
 }
-
 /* -------------------------------------------------- */
-
 @media screen and (max-width: 700px){
 
 .nav-items{
     display: none;
 }
 }
+
 /* -------------------------------------------------- */
-
 @media screen and (max-width: 416px){
-
-
 body{
     margin: 20px 20px;
 }
@@ -66,8 +62,7 @@ nav{
     font-size: 15px;
     word-wrap: break-word;
     color: #758283;
-    font-family: 'Montserrat';
-    
+    font-family: 'Montserrat'; 
 }
 
 .learn-more-btn {
@@ -84,6 +79,4 @@ nav{
     letter-spacing: 1px;        
     margin-bottom: 30px;
 }
-
-
 }
