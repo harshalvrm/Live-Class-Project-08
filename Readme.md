@@ -3,7 +3,7 @@
 ---
 
 ## Description
-This is a basic landing page designed for a firm in pure HTML and CSS. The overall design is somehow clean and elegant. All the elements and colors used here are of pastel form. Arrangements of the navbar were done using `Flexbox` and its properties. The major issue was with the floating SVG images. Their sizes are getting out of control while making the entire page responsive. The solution to that problem lies behind the width and height properties. The overall time it took to complete this project was around `5-6 hours`. The main CSS was somehow easy but making it responsive took some time and I needed to find the right breakpoint. This project has taught me the value of `Flexbox`, `media queries, and `image` properties precisely.
+This is a basic landing page designed for a firm in pure HTML and CSS. The overall design is somehow clean and elegant. All the elements and colors used here are of pastel form. Arrangements of the navbar were done using `Flexbox` and its properties. The major issue was with the floating SVG images. Their sizes are getting out of control while making the entire page responsive. The solution to that problem lies behind the width and height properties. The overall time it took to complete this project was around `5-6 hours`. The main CSS was somehow easy but making it responsive took some time and I needed to find the right breakpoint. This project has taught me the value of `Flexbox`, `media queries`, and `image` properties precisely.
 
 ---
 <!-- <div style="text-align: center;"> -->
